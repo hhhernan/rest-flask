@@ -9,4 +9,4 @@ services:
       - MARIADB_ROOT_PASSWORD=test
       - MARIADB_DATABASE=systemdata
     volumes:
-      - C:\Users\hhhernan\Documents\codigo\prueba\backend\data:/var/lib/mysql
+      - PATH_LOCAL:/var/lib/mysql
