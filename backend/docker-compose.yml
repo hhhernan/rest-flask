@@ -1,0 +1,12 @@
+version: "2"
+services:
+  prueba_db:
+    image: mariadb
+    hostname: prueba_db
+    ports:
+      - "3305:3306"
+    environment:
+      - MARIADB_ROOT_PASSWORD=test
+      - MARIADB_DATABASE=systemdata
+    volumes:
+      - C:\Users\hhhernan\Documents\codigo\prueba\backend\data:/var/lib/mysql
