@@ -10,7 +10,7 @@ Este es un ejemplo de cómo construir un servicio web (RESTful) con las siguient
 
 
 En este caso utilizamos **Flask-RESTful** para aprovechar los mecanismos que incorpora, como es el metodo **add_resource**, 
-que permite redactar la definición de los métodos **GET, POST , PUT, DELETE , etc**. de la consulta HTTP, 
+que permite redactar la definición de los métodos **get, post , put, delete , etc**. de la consulta HTTP, 
 dentro de una clase y colocar la ruta como un argumento . Esto ayuda en comprender mejor la 
 funcionalidad de una api y permite trabajar con archivos pequeños.
 
