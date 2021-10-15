@@ -27,5 +27,5 @@ utilizar **SQLAlchemy**  ya que la definición del modelado se podrá importar e
 **Marshmallow** es una api que permite **serializar y deserializar estructuras de datos**. En este ejemplo 
 fue utilizado para la validación de los datos de entrada y la serialización  de objetos  creados por 
 Flask-SQLAlchemy , esto con el fin de incorporar un mecanismo que revise la integridad de los datos y 
-debido a que en la documentación de flask-restful menciona que el mecanismo **reqparse será remplazado** y 
+debido a que en la documentación de flask-restful menciona que **reqparse será remplazado** y 
 recomiendan utilizar marshmallow , se consideró como la mejor alternativa. 
